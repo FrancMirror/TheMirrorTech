@@ -1,0 +1,178 @@
+/* Colors and fonts*/
+html{
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+  
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: b#000000;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+a {
+    color: #4e4e4e;
+}
+  
+h2{
+    color: #5e5e5e;
+}
+  
+hr{
+    color: #000000;
+    width: 100%;
+}
+  
+body {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 2%;
+    background-color: #f8f8f8;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+  
+body a:hover {
+    color: rgb(131, 131, 131);
+}
+
+ol li {
+    list-style-type: none;
+    counter-increment: lista; 
+    position: relative;
+    }
+    
+ol li::before {
+    color: red;
+    content: counter(lista) ". "; 
+}
+
+.point li {
+    list-style: none; 
+    padding: 0; 
+    margin-left: 10px; 
+    }
+    
+.point li::before {
+    content: "\2023"; 
+    padding-right: 8px; 
+    color: red; 
+}
+
+
+/* Organization*/
+
+aside {
+    float: left;
+    margin: 1%;
+    position: fixed;
+    text-align: center;
+}
+
+section {
+    float: right;
+    width: 70%;
+    margin: 4%;
+}
+
+.centerimg {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.center{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+
+/* I am francmirror*/
+
+#iam {
+	border: #000000 solid 3px;
+	border-radius: 20px;
+	background-color: black;
+	-webkit-box-shadow: 0px 0px 29px 0px black;
+	-moz-box-shadow: 0px 0px 29px 0px black;
+	box-shadow: 0px 0px 29px 0px black;
+	width: 300px;
+	margin: 10px auto;
+}
+
+#iam a {
+    color: #ffffff;
+}
+  
+#iam h2{
+    color: #ffffff;
+}
+
+.icono {
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	border:5px solid rgb(255, 255, 255);
+	border-radius:60px;
+}
+.icono img {
+	border-radius: 60px;
+}
+
+.typing {
+	margin: auto;
+	display: block;
+	border-right: 4px solid;
+	white-space: nowrap;
+	width: 190px;
+	font-size: 14px;
+
+	animation: typing 3s steps(30),
+	blink .5s infinite step-end alternate ;
+	overflow: hidden;
+}
+
+@keyframes typing {
+	from {width: 0;}
+}
+
+.rss {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin: 4%;
+}
+
+
+@keyframes blink {
+	50%{border-color: transparent ;}
+}
+
+#iam {
+	text-align: center;
+}
+
+/* RESPONSIVE*/
+
+@media screen and (max-width: 1000px) {
+
+    html{
+      font-family: 'Courier New', Courier, monospace;
+    }
+    aside {
+        float: none;
+        position: absolute;
+        display: none;
+    }
+    section {
+        margin: 0px auto;
+        float: none;
+        width: 80%;
+    }
+    hr{
+        width: 100%;
+    }
+}

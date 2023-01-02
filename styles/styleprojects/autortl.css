@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.rtl{
+    width: 40%;
+    height: 40%;
+}
+
+
+time{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .rtl{
+        margin: 10px;
+        width: 90%;
+        height: 100%;
+    }
+    .fotos{
+        width:110%;
+        height:110%;
+    }
+
+
+}

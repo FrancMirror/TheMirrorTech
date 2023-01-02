@@ -1,0 +1,75 @@
+aside {
+    float: left;
+    margin: 1%;
+    position: fixed;
+    text-align: center;
+}
+
+section {
+    float: right;
+    width: 70%;
+    margin: 4%;
+}
+
+.centerimg {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.exercise {
+    color: #000000;
+}
+
+.exercise {
+    list-style: none; 
+    padding: 0; 
+    margin-left: 10px; 
+}
+    
+.exercise li::before {
+    content: "\2022"; 
+    padding-right: 8px; 
+    color: red; 
+}
+
+ol li {
+    list-style-type: none;
+    counter-increment: lista; 
+    position: relative;
+    }
+    
+ol li::before {
+    color: red;
+    content: counter(lista) ". "; 
+}
+
+@media screen and (max-width: 1000px) {
+
+    aside {
+        display: none;
+    }
+    section {
+        margin: 0px auto;
+        float: none;
+    }
+    .javascript {
+        width: 50%;
+        height: 50%;
+        margin: 20px auto;
+    }
+    #container{
+        margin: 0px auto;
+        width: 350px;
+    }
+    hr{
+        width: 100%;
+    }
+    .screenshot{
+        width:100%;
+        height: 100%;
+    }
+}

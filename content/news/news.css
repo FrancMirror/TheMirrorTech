@@ -1,0 +1,18 @@
+#tabla_entradas{
+    text-align: center;
+    margin: 0px auto;
+}
+
+@media only screen and (max-width: 480px) {
+	td{
+        font-size: 10px;
+    }
+}
+
+td, th {
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+    border-color: #9fa8da;
+    background-color: #c5c5c5;
+    text-align: center;
+}

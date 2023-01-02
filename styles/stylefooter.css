@@ -1,0 +1,16 @@
+html {
+    height: 100%;
+}
+
+ footer {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
+    bottom: 0;
+    height: auto;
+    color: #f1f1f1;
+    text-align: center;
+    background-color: black;
+}
