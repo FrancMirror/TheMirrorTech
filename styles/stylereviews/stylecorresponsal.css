@@ -1,0 +1,34 @@
+:root{
+    --color-inactivo: #5f5050;
+    --color-hover: #ffa400;
+}
+
+i{
+    transition: all 800ms ease-in-out;
+}
+
+.star-rating input {
+    display:none;
+}
+
+.star-rating :checked ~ i {
+    color:var(--color-hover);
+}
+
+i:hover{
+    transform: rotate(360deg);
+
+}
+  
+.star-rating label:hover,
+.star-rating label:hover ~ i { 
+    color: var(--color-hover);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+
+    h1{
+        font-size: 26px;
+    }
+}

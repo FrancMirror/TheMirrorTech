@@ -6,7 +6,7 @@
 }
 
 .navbar header{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Courier New', Courier, monospace;
 } 
 
 .navbar a {
@@ -21,8 +21,6 @@
   justify-content: space-between;
   background-color: var(--background-color);
   padding: 8px 12px;
-  
-  
 }
 .navbar__menu {
   display: flex;
