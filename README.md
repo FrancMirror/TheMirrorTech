@@ -1,5 +1,7 @@
-# The Mirror Tech
 <div align="center">
+
+# The Mirror Tech
+
 
 El código de la sección noticias está escrito por Selairi en Python y disponible en
 GitHub bajo licencia BSD.
